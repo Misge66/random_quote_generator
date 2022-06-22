@@ -1,3 +1,5 @@
+console.log('CONNECTED');
+
 const url = 'https://type.fit/api/quotes';
 
 let quote = document.getElementById('the_qoute')
@@ -10,17 +12,17 @@ const randomQouteSelector = () => {
   fetch(url)
     .then((response) => response.json())
     .then((quoteData) => {
-      console.log(quoteData);
+
+    
+      // Generating random number to get index 
 
       const randomNum = Math.floor(Math.random() * quoteData.length);
       the_qoute.innerText = quoteData[randomNum].text;
       qoute_author.innerText = '--'+ quoteData[randomNum].author;
-    })
-    .catch((err) => {
-      console.log(`error ${err}`);
     });
 }
 
+//adding onclick event to the button
 
 button.addEventListener('click', randomQouteSelector);
 
