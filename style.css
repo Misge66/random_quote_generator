@@ -13,8 +13,9 @@
     width: 100%;
 }
 
-#click-me-button{
+#click_me_button{
     text-align: center;
+    font-size: 20px;
 }
 
 #quo{
