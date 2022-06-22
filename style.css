@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont{
+    background-image: url(/b5ook-nature-turning-pages-pretty-animated-gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    position: absolute;
+    width: 100%;
+}
+
+#click-me-button{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#quo{
+   margin-top: 10%;
+   display: flexbox;
+    margin-left: 25%;
+    align-content: center;
+    height: 350px;
+    padding-top: 10px;
+    background-image: url(./AfraidClearKakarikis-size_restricted.gif);
+    background-size: cover;
+    box-shadow: 20px 20px 70px 100px black;
+    width: 50%;
+}
+
+#para{
+    font-size: 40px;
+    font-family: 'Koulen', cursive;
+    text-align: center;
+    color: white;
+    border-bottom: 5px solid black;
+    margin-bottom: 70px;
+}
+
+#the_qoute{
+
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-family: 'Koulen', cursive;
+}
+
+#qoute_author{
+    font-family: 'Italianno', cursive;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
